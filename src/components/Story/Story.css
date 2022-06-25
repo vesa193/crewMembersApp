@@ -1,0 +1,19 @@
+.story {
+    width: 100%;
+    display: grid;
+    grid-auto-flow: dense;
+    list-style-type: none;
+}
+
+.story * {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.story__desc {
+    color: var(--grey-text-color);
+}
+
+.story__desc span {
+    color: var(--black-text-color);
+}

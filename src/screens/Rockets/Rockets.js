@@ -9,6 +9,7 @@ import {
     SafeAreaView,
     Image,
     Linking,
+    PermissionsAndroid,
 } from 'react-native';
 import { useDispatch, useSelector } from 'react-redux';
 import { getRocketsRequest } from '../../redux/reducers/rockets/rocketsReducer';
